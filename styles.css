@@ -1,0 +1,252 @@
+
+/* header part */
+
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.logo{
+    width: 140px;
+    margin-left:50px ;
+    margin-top: 26px ;
+}
+.headerClass{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navlinks{
+    margin-left: 60px;
+    display: flex;
+    list-style-type: none;
+     margin-right: 150px;
+}
+.links{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    word-spacing: 20px;
+    margin-right: 10px;
+}
+
+
+
+.links:hover{
+    color: red;
+
+}
+
+
+
+/* home section */
+#home{
+    margin-top: 60px;
+}
+.title{
+    margin-left: 10%;
+    margin-top: 6%;
+}
+.title h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+
+}
+.secondName{
+    color: orange;
+}
+/* button */
+.download{
+
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 60px;
+    margin: 10px 0px;
+    display: inline-block;
+    border-radius: 20px;
+    font-weight: bold;
+}
+/* images :right */
+.images{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 20%;
+    right: 49px;
+
+}
+.images img{
+    position: absolute;
+    height: 400px;
+    left: 100px;
+    bottom: 0px;
+    transform: translate(900px);
+    transition: bottom 4s,left 3s;
+
+
+}
+.images:hover #shape{
+    bottom: 30px;
+}
+.images:hover #girl{
+    left: 60px;
+}
+/* about section */
+#about{
+    margin-top: 100px;
+}
+.heading{
+    text-align: center;
+    margin-top: 100px;
+
+}
+.heading h3{
+    color: green;
+    margin-bottom: 120px;
+}
+.about_content{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    margin-top: 30px;
+    gap: 2rem;
+    margin-left: 40px;
+}
+.information{
+    margin-top: 20px;
+}
+.info-box{
+    margin-bottom: 10px;
+}
+.info-box span{
+    margin-left: 5px;
+}
+.about-img img{
+    width: 70%;
+}
+
+.about_details{
+    font-size: 18px;
+    text-align:justify ;
+}
+/* skills section */
+#skills{
+    margin-top: 200px;
+    }
+    .heading1{
+    text-align: center;
+    margin-top: 50px;
+    }
+    .about-img img{
+    width: 70%;
+    }
+    .heading1 span{
+    color: green;
+    }
+    .skill-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    margin-top: 30px;
+    }
+    .progress-bar{
+    margin-left: 70px;
+    padding-left:40px;
+    }
+    .bar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 0px;
+    margin-bottom: 5px;
+    position: relative;
+    width: 85%;
+    }
+    .base-bar{
+    width: 100%;
+    height: 5px;
+    background-color: black;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0px;
+    }
+    .html-bar{
+    background-color: orange;
+    width: 95%;
+    }
+    .css-bar{
+    background-color: orange;
+    width: 80%;
+    }
+    .js-bar{
+    background-color: orange;
+    width: 75%;
+    }
+    .angular-bar{
+    background-color: orange;
+    width: 80%;
+    }
+    .skill-img img{
+    width: 66%;
+    padding-left: 20px;
+    }
+    .heading2 span{
+    color: green;
+    }
+    #contact{
+    margin-top: 200px;
+    }
+    .heading2{
+    text-align: center;
+    margin-top: 50px
+    }
+    .icon-set{
+        display: flex;
+        justify-content: center;
+        margin-top: 3%;
+        align-items: center;
+        }
+        .icon{
+        margin-right: 30px;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%
+        }
+        .icon i{
+        font-size: 30px;
+        color: black;
+        margin-left: 10px;
+        margin-top: 10px;
+        justify-content: center;
+        align-items: center;
+        }
+        .icon:hover{
+        background-image: linear-gradient(to bottom right,yellow,red);
+        animation: shake 1s;
+        }
+        @keyframes shake{
+        10%{
+        transform: rotate(15deg);
+        }
+        20%{
+        transform: rotate(-15deg);
+        }
+        }
+        .footer{
+        margin-top: 100px;
+        text-align: center;
+        }
+        .up-arrow{
+        height: 50px;
+        width: 50px;
+        float: right;
+        border-radius: 50%;
+        background-image: linear-gradient(to bottom right, yellow, red);
+        margin: 0px 10px 50px 0px;
+        justify-content: center;
+        align-items: center;
+        }
+        .up-arrow i{
+        margin-top: 10px;
+        margin-left: 13px;
+        margin-right: 10px;
+        font-size:30px;
+        }
